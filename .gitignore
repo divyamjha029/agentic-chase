@@ -1,0 +1,18 @@
+# Python Virtual Environment
+ai-backend/venv/
+__pycache__/
+
+# Node.js Dependencies
+wa-bridge/node_modules/
+frontend/node_modules/
+
+# WhatsApp Session Tokens (CRITICAL SECURITY)
+wa-bridge/auth_info/
+
+# Databases & Local Memory (Ensures Data Privacy)
+ai-backend/*.db
+ai-backend/*.sqlite3
+ai-backend/chroma_db/
+
+# Environment Variables (API Keys)
+.envgit add .
